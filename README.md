@@ -27,3 +27,23 @@
      ```shell
      دستور گیت پول میره اطلاعات رو از روی ریموت میگیره و اون اطلاعات رو نسخه ریموت ریپو ذخیره میکنه بعد از اون میاد اطلاعات نسخه ریموت رو با لوکال مرج میکنه
      ```
+- **branch**
+     ```shell
+     برانچ یکی از ویژگی های موجود در اکثر سیستم های کنترل مدرن اند. که هر کد شامل یه برنچ مستر است و میتوان برانچ های دیگه برای پروژه تعریف کرد که افراد دیگه هستن و رویه پروژه کار میکنند
+     ```
+
+### 3
+- **Add into github**
+     ```shell
+     $ mkdir tmp
+     $ cd tmp/
+     $ git init
+     $ git checkout -b develop
+     $ touch README.md
+     $ git remote add origin {Link github ripo you created empty}
+     $ git add .
+     $ git commit -m "First commit"
+     $ git checkout develop
+     $ git merge --no-ff my-feature-branch
+     $ git push origin develop
+     ```
